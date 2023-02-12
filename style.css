@@ -82,6 +82,12 @@ h1, h2, h3 {
     font-weight: var(--fw-heading);
 }
 
+/* body basic */
+
+body {
+  margin-inline: clamp(10px, 3rem, 5vw);
+}
+
 /* attribution in footer */
 
 .attribution {
